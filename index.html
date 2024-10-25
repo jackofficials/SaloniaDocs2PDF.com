@@ -4,52 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SaloniaDocs2PDF - Convert Word to PDF Free</title>
-    
+
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="wetBTuUaF-VCk3DeUKTrwjQH_RsMgYiykuuowahkrAY">
-    
+
     <!-- Meta Tags for SEO -->
     <meta name="description" content="Easily convert your Word documents (.docx) to PDF online with SaloniaDocs2PDF. Fast, free, and no downloads required.">
     <meta name="keywords" content="Word to PDF converter, convert docx to PDF, free PDF converter, online PDF tool, document conversion, SaloniaDocs2PDF">
     <meta name="robots" content="index, follow">
-    
+
     <!-- Open Graph Meta Tags for Social Sharing -->
     <meta property="og:title" content="SaloniaDocs2PDF - Free Online Word to PDF Converter">
     <meta property="og:description" content="Convert your Word documents to PDF in seconds with SaloniaDocs2PDF. Fast, secure, and free.">
     <meta property="og:image" content="https://jackofficials.github.io/SaloniaDocs2PDF.com/preview-image.jpg">
     <meta property="og:url" content="https://jackofficials.github.io/SaloniaDocs2PDF.com/">
     <meta property="og:type" content="website">
-    
-    <!-- Link to CSS file -->
-    <link rel="stylesheet" href="styles.css">
+
+    <!-- Link to Tailwind CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    <div class="overlay"></div>
-    <div class="container">
-        <h1 class="title">SaloniaDocs2PDF</h1>
-        
-        <!-- Small description/quote -->
-        <p class="description">"Easily convert your Word documents and images into PDF in just a few clicks."</p>
+<body class="bg-gradient-to-r from-blue-500 to-purple-600 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white rounded-lg shadow-lg max-w-md w-full p-8 text-center transform transition duration-500 hover:scale-105">
+        <h1 class="text-3xl font-bold text-blue-600 mb-4">SaloniaDocs2PDF</h1>
+        <p class="text-gray-600 text-lg mb-8">Easily convert your Word documents and images into PDF in just a few clicks.</p>
 
         <!-- Word File Input -->
-        <h2>Convert Word to PDF</h2>
-        <input type="file" id="fileInput" accept=".docx" class="file-input">
-        <button id="convertButton" class="btn">Convert Word to PDF</button>
-        <a id="downloadLink" class="download-link">Download PDF</a>
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">Convert Word to PDF</h2>
+        <input type="file" id="fileInput" accept=".docx" class="file-input mb-4 p-2 w-full border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 transition duration-200">
+        <button id="convertButton" class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-3 rounded-lg hover:from-purple-600 hover:to-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transform transition duration-300 hover:scale-105">Convert Word to PDF</button>
+        <a id="downloadLink" class="hidden text-blue-600 underline">Download PDF</a>
 
         <!-- Image File Input -->
-        <h2>Convert Image to PDF</h2>
-        <input type="file" id="imageFileInput" accept=".jpg, .jpeg, .png" class="file-input">
-        <button id="convertImageButton" class="btn">Convert Image to PDF</button>
-        <a id="downloadImageLink" class="download-link">Download PDF</a>
+        <h2 class="text-xl font-semibold text-gray-700 mt-6 mb-2">Convert Image to PDF</h2>
+        <input type="file" id="imageFileInput" accept=".jpg, .jpeg, .png" class="file-input mb-4 p-2 w-full border border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 transition duration-200">
+        <button id="convertImageButton" class="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-3 rounded-lg hover:from-purple-600 hover:to-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 transform transition duration-300 hover:scale-105">Convert Image to PDF</button>
+        <a id="downloadImageLink" class="hidden text-blue-600 underline">Download PDF</a>
 
         <!-- Contact Support Section -->
-        <div class="contact">
-            <h2>Contact Us</h2>
-            <p>Need help? Reach us out at:</p>
-            <p><strong>Email:</strong> monujacks973@gmail.com</p>
-            <a href="https://instagram.com/jackoffishall" class="icon instagram" target="_blank">
-                <img src="instagram-icon.png" alt="Instagram" />
+        <div class="contact mt-8 text-center">
+            <h2 class="text-lg font-semibold text-gray-700">Contact Us</h2>
+            <p class="text-gray-600 mb-1">Need help? Reach us out at:</p>
+            <p class="text-gray-600"><strong>Email:</strong> <a href="mailto:monujacks973@gmail.com" class="text-blue-500 underline">monujacks973@gmail.com</a></p>
+            <a href="https://instagram.com/jackoffishall" class="inline-flex items-center text-blue-600 mt-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19.615 0h-15.23C1.953 0 .385 1.567.385 3.385v15.23c0 1.819 1.568 3.385 3.385 3.385h15.23c1.819 0 3.385-1.567 3.385-3.385v-15.23C23 1.568 21.433 0 19.615 0zM12 17.308c-3.054 0-5.538-2.485-5.538-5.538S8.946 6.231 12 6.231s5.538 2.485 5.538 5.538-2.484 5.539-5.538 5.539zm6.6-10.269c-.347 0-.615-.267-.615-.615 0-.348.268-.615.615-.615.348 0 .615.267.615.615 0 .348-.267.615-.615.615z"/>
+                </svg>
                 <span>Follow us on Instagram</span>
             </a>
         </div>
