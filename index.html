@@ -29,16 +29,19 @@
         <h1 class="title">SaloniaDocs2PDF</h1>
         
         <!-- Small description/quote -->
-        <p class="description">"Easily convert your Word documents into PDF in just a few clicks."</p>
+        <p class="description">"Easily convert your Word documents and images into PDF in just a few clicks."</p>
 
-        <!-- File Input -->
+        <!-- Word File Input -->
+        <h2>Convert Word to PDF</h2>
         <input type="file" id="fileInput" accept=".docx" class="file-input">
-        
-        <!-- Convert Button -->
-        <button id="convertButton" class="btn">Convert to PDF</button>
-
-        <!-- Download Link (Hidden by default) -->
+        <button id="convertButton" class="btn">Convert Word to PDF</button>
         <a id="downloadLink" class="download-link">Download PDF</a>
+
+        <!-- Image File Input -->
+        <h2>Convert Image to PDF</h2>
+        <input type="file" id="imageFileInput" accept=".jpg, .jpeg, .png" class="file-input">
+        <button id="convertImageButton" class="btn">Convert Image to PDF</button>
+        <a id="downloadImageLink" class="download-link">Download PDF</a>
 
         <!-- Contact Support Section -->
         <div class="contact">
@@ -47,7 +50,7 @@
             <p><strong>Email:</strong> monujacks973@gmail.com</p>
             <a href="https://instagram.com/jackoffishall" class="icon instagram" target="_blank">
                 <img src="instagram-icon.png" alt="Instagram" />
-                <span>Follow us on Instagram</span> <!-- Added text for better alignment -->
+                <span>Follow us on Instagram</span>
             </a>
         </div>
     </div>
